@@ -1,0 +1,51 @@
+{
+  "args": {
+    "seed": 42,
+    "epochs": 3,
+    "batch_size": 8,
+    "lr": 2e-05,
+    "weight_decay": 0.01,
+    "warmup": 1,
+    "patience": 2,
+    "max_len": 128,
+    "model_name": "roberta-large",
+    "features_dir": "features",
+    "ckpt_dir": "checkpoints",
+    "results_dir": "results"
+  },
+  "best_epoch": 2,
+  "best_dev_wf1": 0.6000316786193408,
+  "train_time_min": 56.3233993490537,
+  "test": {
+    "acc": 0.6398467432950191,
+    "wf1": 0.6391646087522768,
+    "mf1": 0.48745904932978895
+  },
+  "history": [
+    {
+      "epoch": 0,
+      "lr": 2e-05,
+      "train_loss": 1.8731200319592427,
+      "dev_acc": 0.5830324909747292,
+      "dev_wf1": 0.5524661912476244,
+      "dev_mf1": 0.36884387256105444
+    },
+    {
+      "epoch": 1,
+      "lr": 1e-05,
+      "train_loss": 1.6289423830528997,
+      "dev_acc": 0.5866425992779783,
+      "dev_wf1": 0.5811406831951588,
+      "dev_mf1": 0.43074562521203114
+    },
+    {
+      "epoch": 2,
+      "lr": 0.0,
+      "train_loss": 1.35971371935872,
+      "dev_acc": 0.6046931407942239,
+      "dev_wf1": 0.6000316786193408,
+      "dev_mf1": 0.4537461499517355
+    }
+  ],
+  "n_params": 355366919
+}
