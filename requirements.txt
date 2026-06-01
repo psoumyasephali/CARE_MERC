@@ -1,0 +1,21 @@
+# Core
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+transformers==4.40.0
+sentencepiece==0.2.0
+accelerate==0.27.0
+
+# Numerical / data
+numpy>=1.24,<2.0
+pandas==2.0.3
+scikit-learn==1.3.0
+
+# Video / vision
+opencv-python==4.9.0.80
+facenet-pytorch==2.6.0
+Pillow>=10.0.0
+
+# Training utilities
+tqdm==4.66.1
+matplotlib==3.7.2

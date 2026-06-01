@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# macOS
+.DS_Store
+
+# Large artifacts: regenerate with the pipeline (see README)
+checkpoints/
+features/
+*.pt
+
+# Per-run training logs (the metrics are saved alongside in the .json)
+results/*_log.txt
+
+# Raw MELD dataset: download separately (see "Data" in the README)
+data/raw
+
+# Generated locally by scripts/00_audit_dataset.py (machine-specific)
+data/processed/audit_report.json
+
+# Local working notes and drafts (kept out of the published repo)
+_local_notes/
+*.tex
+
+# Markdown: publish only the README and docs/, keep local working notes out
+*.md
+!README.md
+!docs/**/*.md

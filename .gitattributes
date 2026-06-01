@@ -1,0 +1,7 @@
+# Treat data and result artifacts as generated so they don't skew the language bar
+data/processed/*     linguist-generated=true
+results/*.json       linguist-generated=true
+
+# Binary assets
+*.png binary
+*.npy binary
