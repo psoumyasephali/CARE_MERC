@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "CARE-MERC: Multimodal Emotion Recognition on MELD"
+abstract: >-
+  An empirical study of multimodal (text, audio, visual) emotion recognition in
+  conversation on the MELD benchmark, showing that a fine-tuned text encoder
+  accounts for nearly all of the performance and that frozen utterance-level
+  audio and visual features add no measurable gain.
+authors:
+  - family-names: Pradhan
+    given-names: Soumya Sephali
+year: 2026
+license: MIT
+url: "https://github.com/psoumyasephali/multimodal-emotion-recognition-meld"
+repository-code: "https://github.com/psoumyasephali/multimodal-emotion-recognition-meld"
+keywords:
+  - emotion recognition
+  - multimodal learning
+  - conversation
+  - MELD
+  - RoBERTa
